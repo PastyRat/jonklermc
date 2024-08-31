@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bab",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "the_jonkler:eviljonkler"
+    },
+    "b": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "c": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "the_jonkler:evil_jonklersword",
+    "count": 1
+  }
+}

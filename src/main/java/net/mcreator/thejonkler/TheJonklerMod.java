@@ -19,6 +19,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.thejonkler.init.TheJonklerModTabs;
 import net.mcreator.thejonkler.init.TheJonklerModItems;
+import net.mcreator.thejonkler.init.TheJonklerModEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -41,6 +42,7 @@ public class TheJonklerMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		TheJonklerModItems.REGISTRY.register(bus);
+		TheJonklerModEntities.REGISTRY.register(bus);
 
 		TheJonklerModTabs.REGISTRY.register(bus);
 

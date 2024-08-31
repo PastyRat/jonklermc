@@ -1,0 +1,59 @@
+{
+  "_fv": 66,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "goon_bow",
+    "customModelName": "Ranged item",
+    "customProperties": {},
+    "states": [],
+    "name": "Goon Bow",
+    "rarity": "RARE",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Jonklermod"
+      }
+    ],
+    "stackSize": 1,
+    "enchantability": 12,
+    "useDuration": 72000,
+    "toolType": 1.0,
+    "damageCount": 10000,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 8.0,
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "enableRanged": true,
+    "shootConstantly": false,
+    "rangedItemChargesPower": true,
+    "projectile": {
+      "value": "Arrow"
+    },
+    "onRangedItemUsed": {
+      "name": "GoonBowRangedItemShootsProjectile"
+    },
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "bow"
+  }
+}

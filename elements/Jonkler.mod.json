@@ -11,7 +11,7 @@
     "rarity": "RARE",
     "creativeTabs": [
       {
-        "value": "TOOLS"
+        "value": "CUSTOM:Jonklermod"
       }
     ],
     "stackSize": 1,
@@ -37,7 +37,7 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "enableRanged": true,
+    "enableRanged": false,
     "shootConstantly": true,
     "rangedItemChargesPower": false,
     "projectile": {

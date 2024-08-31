@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " aa",
+    "aab",
+    "ab "
+  ],
+  "key": {
+    "a": {
+      "item": "the_jonkler:goon"
+    },
+    "b": {
+      "item": "minecraft:netherite_scrap"
+    }
+  },
+  "result": {
+    "item": "the_jonkler:goon_bow",
+    "count": 1
+  }
+}
