@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:diamond"
+    },
+    "b": {
+      "item": "the_jonkler:jonkler"
+    }
+  },
+  "result": {
+    "item": "the_jonkler:jonklermonster_spawn_egg",
+    "count": 1
+  }
+}

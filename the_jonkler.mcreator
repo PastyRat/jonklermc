@@ -29,10 +29,6 @@
             "type": "entity"
           },
           {
-            "name": "itemstack",
-            "type": "itemstack"
-          },
-          {
             "name": "x",
             "type": "number"
           },
@@ -59,8 +55,8 @@
       "registry_name": "jonkle_rsword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thejonkler/item/JONKLERswordItem.java",
-          "src/main/resources/assets/the_jonkler/models/item/jonkle_rsword.json"
+          "src/main/resources/assets/the_jonkler/models/item/jonkle_rsword.json",
+          "src/main/java/net/mcreator/thejonkler/item/JONKLERswordItem.java"
         ]
       }
     },
@@ -89,20 +85,6 @@
       }
     },
     {
-      "name": "Eviljonklerbiome",
-      "type": "biome",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eviljonklerbiome",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/the_jonkler/worldgen/configured_feature/eviljonklerbiome_tree.json",
-          "src/main/resources/data/the_jonkler/worldgen/biome/eviljonklerbiome.json",
-          "src/main/resources/data/the_jonkler/worldgen/placed_feature/eviljonklerbiome_tree.json"
-        ]
-      }
-    },
-    {
       "name": "SigmaswordRightclicked",
       "type": "procedure",
       "compiles": true,
@@ -116,10 +98,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
           },
           {
             "name": "x",
@@ -161,8 +139,8 @@
       "registry_name": "evil_jonklersword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thejonkler/item/EvilJonklerswordItem.java",
-          "src/main/resources/assets/the_jonkler/models/item/evil_jonklersword.json"
+          "src/main/resources/assets/the_jonkler/models/item/evil_jonklersword.json",
+          "src/main/java/net/mcreator/thejonkler/item/EvilJonklerswordItem.java"
         ]
       }
     },
@@ -217,10 +195,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
           },
           {
             "name": "x",
@@ -383,10 +357,21 @@
       "registry_name": "jonklermonster",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/thejonkler/entity/JonklermonsterEntity.java",
           "src/main/resources/assets/the_jonkler/models/item/jonklermonster_spawn_egg.json",
-          "src/main/java/net/mcreator/thejonkler/client/renderer/JonklermonsterRenderer.java",
-          "src/main/resources/data/the_jonkler/forge/biome_modifier/jonklermonster_biome_modifier.json",
-          "src/main/java/net/mcreator/thejonkler/entity/JonklermonsterEntity.java"
+          "src/main/java/net/mcreator/thejonkler/client/renderer/JonklermonsterRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "JonklerEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jonkler_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_jonkler/recipes/jonkler_egg.json"
         ]
       }
     }
@@ -394,22 +379,10 @@
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
-    "BIOMES:minecraft:has_structure/stronghold": [
-      "~CUSTOM:Eviljonklerbiome"
-    ],
-    "BIOMES:minecraft:has_structure/pillager_outpost": [
-      "~CUSTOM:Eviljonklerbiome"
-    ],
-    "BIOMES:minecraft:has_structure/mineshaft": [
-      "~CUSTOM:Eviljonklerbiome"
-    ],
     "ITEMS:minecraft:swords": [
       "~CUSTOM:EvilJonklersword",
       "~CUSTOM:Sigmasword",
       "~CUSTOM:JONKLERsword"
-    ],
-    "BIOMES:minecraft:has_structure/ruined_portal_standard": [
-      "~CUSTOM:Eviljonklerbiome"
     ]
   },
   "tab_element_order": {},
@@ -420,7 +393,6 @@
       "item.the_jonkler.goon_bow": "Goon Bow",
       "item.the_jonkler.sigmasword": "Sigma Sword",
       "item.the_jonkler.jonkler": "Jonkler",
-      "biome.the_jonkler.eviljonklerbiome": "Eviljonklerbiome",
       "entity.the_jonkler.jonklermonster": "Jonkler",
       "item.the_jonkler.jonklermonster_spawn_egg": "Jonkler Spawn Egg",
       "item.the_jonkler.sigma": "Sigma",
@@ -437,17 +409,16 @@
   "workspaceSettings": {
     "modid": "the_jonkler",
     "modName": "the jonkler",
-    "version": "0.3.0",
-    "description": "A mod that adds the jonkler and related brainrot items.",
-    "author": "Ivano, PastyRat,",
-    "license": "GNU General Public License version 3 (GPLv3)",
+    "version": "1.0.0",
+    "author": "Ivano, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.thejonkler"
   },
   "mcreatorVersion": 202400232117
