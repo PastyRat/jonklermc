@@ -1,14 +1,15 @@
 modLoader="javafml"
 loaderVersion="[47,)"
-license="Not specified"
+license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="the_jonkler"
-version="1.0.0"
+version="0.3.0"
 displayName="the jonkler"
 displayURL="https://mcreator.net"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="Ivano, MCreator"
+authors="Ivano, PastyRat,"
+description="A mod that adds the jonkler and related brainrot items."
 
 # Start of user code block mod configuration
 # End of user code block mod configuration

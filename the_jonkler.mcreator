@@ -29,6 +29,10 @@
             "type": "entity"
           },
           {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -55,8 +59,8 @@
       "registry_name": "jonkle_rsword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_jonkler/models/item/jonkle_rsword.json",
-          "src/main/java/net/mcreator/thejonkler/item/JONKLERswordItem.java"
+          "src/main/java/net/mcreator/thejonkler/item/JONKLERswordItem.java",
+          "src/main/resources/assets/the_jonkler/models/item/jonkle_rsword.json"
         ]
       }
     },
@@ -114,6 +118,10 @@
             "type": "entity"
           },
           {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -153,8 +161,8 @@
       "registry_name": "evil_jonklersword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_jonkler/models/item/evil_jonklersword.json",
-          "src/main/java/net/mcreator/thejonkler/item/EvilJonklerswordItem.java"
+          "src/main/java/net/mcreator/thejonkler/item/EvilJonklerswordItem.java",
+          "src/main/resources/assets/the_jonkler/models/item/evil_jonklersword.json"
         ]
       }
     },
@@ -209,6 +217,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
           },
           {
             "name": "x",
@@ -425,16 +437,17 @@
   "workspaceSettings": {
     "modid": "the_jonkler",
     "modName": "the jonkler",
-    "version": "1.0.0",
-    "author": "Ivano, MCreator",
-    "websiteURL": "https://mcreator.net",
-    "license": "Not specified",
+    "version": "0.3.0",
+    "description": "A mod that adds the jonkler and related brainrot items.",
+    "author": "Ivano, PastyRat,",
+    "license": "GNU General Public License version 3 (GPLv3)",
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.thejonkler"
   },
   "mcreatorVersion": 202400232117
