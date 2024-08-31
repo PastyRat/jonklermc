@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "the_jonkler:item/evil_jonkler_sword"
+  }
+}
