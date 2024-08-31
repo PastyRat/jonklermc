@@ -20,6 +20,7 @@ import net.mcreator.thejonkler.item.GoonItem;
 import net.mcreator.thejonkler.item.GoonBowItem;
 import net.mcreator.thejonkler.item.EviljonklerItem;
 import net.mcreator.thejonkler.item.EvilJonklerswordItem;
+import net.mcreator.thejonkler.item.BusterItem;
 import net.mcreator.thejonkler.TheJonklerMod;
 
 public class TheJonklerModItems {
@@ -34,6 +35,7 @@ public class TheJonklerModItems {
 	public static final RegistryObject<Item> GOON_BOW = REGISTRY.register("goon_bow", () -> new GoonBowItem());
 	public static final RegistryObject<Item> GOON = REGISTRY.register("goon", () -> new GoonItem());
 	public static final RegistryObject<Item> JONKLERMONSTER_SPAWN_EGG = REGISTRY.register("jonklermonster_spawn_egg", () -> new ForgeSpawnEggItem(TheJonklerModEntities.JONKLERMONSTER, -15634158, -6219583, new Item.Properties()));
+	public static final RegistryObject<Item> BUSTER = REGISTRY.register("buster", () -> new BusterItem());
 	// Start of user code block custom items
 	// End of user code block custom items
 }

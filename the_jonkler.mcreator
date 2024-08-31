@@ -374,6 +374,83 @@
           "src/main/resources/data/the_jonkler/recipes/jonkler_egg.json"
         ]
       }
+    },
+    {
+      "name": "Suspotion",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspotion",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Potionofsus",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potionofsus",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thejonkler/recipes/brewing/PotionofsusBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "BusterRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buster_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thejonkler/procedures/BusterRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Buster",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buster",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_jonkler/models/item/buster.json",
+          "src/main/java/net/mcreator/thejonkler/item/BusterItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Bustercraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bustercraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_jonkler/recipes/bustercraft.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -388,13 +465,18 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item.minecraft.tipped_arrow.effect.suspotion": "Arrow of Sus",
+      "item.minecraft.potion.effect.suspotion": "Potion of Sus",
       "item.the_jonkler.watermelon_cat_helmet": "Watermelon Cat Helmet",
       "item_group.the_jonkler.jonklermod": "Jonkler",
+      "item.minecraft.lingering_potion.effect.suspotion": "Lingering Potion of Sus",
       "item.the_jonkler.goon_bow": "Goon Bow",
       "item.the_jonkler.sigmasword": "Sigma Sword",
+      "item.minecraft.splash_potion.effect.suspotion": "Splash Potion of Sus",
       "item.the_jonkler.jonkler": "Jonkler",
       "entity.the_jonkler.jonklermonster": "Jonkler",
       "item.the_jonkler.jonklermonster_spawn_egg": "Jonkler Spawn Egg",
+      "item.the_jonkler.buster": "Buster",
       "item.the_jonkler.sigma": "Sigma",
       "item.the_jonkler.goon": "Goon",
       "item.the_jonkler.evil_jonklersword": "Evil Jonkler Sword",

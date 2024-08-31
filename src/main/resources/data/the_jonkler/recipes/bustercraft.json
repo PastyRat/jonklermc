@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "the_jonkler:goon"
+    }
+  },
+  "result": {
+    "item": "the_jonkler:buster",
+    "count": 1
+  }
+}

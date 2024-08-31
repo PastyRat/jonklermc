@@ -1,0 +1,57 @@
+{
+  "_fv": 66,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Sus",
+    "splashName": "Splash Potion of Sus",
+    "lingeringName": "Lingering Potion of Sus",
+    "arrowName": "Arrow of Sus",
+    "effects": [
+      {
+        "effect": {
+          "value": "MINING_FATIGUE"
+        },
+        "duration": 2000,
+        "amplifier": 1,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "SLOWNESS"
+        },
+        "duration": 2000,
+        "amplifier": 5,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "MINING_FATIGUE"
+        },
+        "duration": 2000,
+        "amplifier": 1,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "RESISTANCE"
+        },
+        "duration": 2000,
+        "amplifier": 10,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "DARKNESS"
+        },
+        "duration": 500,
+        "amplifier": 1,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

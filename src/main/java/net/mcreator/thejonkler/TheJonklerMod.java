@@ -18,6 +18,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.thejonkler.init.TheJonklerModTabs;
+import net.mcreator.thejonkler.init.TheJonklerModPotions;
 import net.mcreator.thejonkler.init.TheJonklerModItems;
 import net.mcreator.thejonkler.init.TheJonklerModEntities;
 
@@ -45,6 +46,8 @@ public class TheJonklerMod {
 		TheJonklerModEntities.REGISTRY.register(bus);
 
 		TheJonklerModTabs.REGISTRY.register(bus);
+
+		TheJonklerModPotions.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init
