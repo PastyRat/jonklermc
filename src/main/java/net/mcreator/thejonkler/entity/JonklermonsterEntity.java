@@ -33,6 +33,7 @@ import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.network.chat.Component;
 
+import net.mcreator.thejonkler.procedures.JonklermonsterEntityDiesProcedure;
 import net.mcreator.thejonkler.init.TheJonklerModItems;
 import net.mcreator.thejonkler.init.TheJonklerModEntities;
 
@@ -85,19 +86,14 @@ public class JonklermonsterEntity extends Monster {
 		return -0.35D;
 	}
 
-	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {
-		super.dropCustomDeathLoot(source, looting, recentlyHitIn);
-		this.spawnAtLocation(new ItemStack(TheJonklerModItems.GOON.get()));
-	}
-
 	@Override
 	public SoundEvent getAmbientSound() {
-		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("the_jonkler:jonklerlaugh"));
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("the_jonkler:sigmanew"));
 	}
 
 	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
-		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("the_jonkler:jonklerlaugh"));
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("the_jonkler:whysoserious"));
 	}
 
 	@Override
@@ -121,6 +117,12 @@ public class JonklermonsterEntity extends Monster {
 	@Override
 	public boolean fireImmune() {
 		return true;
+	}
+
+	@Override
+	public void die(DamageSource source) {
+		super.die(source);
+		JonklermonsterEntityDiesProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
 	}
 
 	@Override
