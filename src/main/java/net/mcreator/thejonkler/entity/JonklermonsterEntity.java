@@ -33,7 +33,6 @@ import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.thejonkler.procedures.JonklermonsterEntityDiesProcedure;
 import net.mcreator.thejonkler.init.TheJonklerModItems;
 import net.mcreator.thejonkler.init.TheJonklerModEntities;
 
@@ -117,12 +116,6 @@ public class JonklermonsterEntity extends Monster {
 	@Override
 	public boolean fireImmune() {
 		return true;
-	}
-
-	@Override
-	public void die(DamageSource source) {
-		super.die(source);
-		JonklermonsterEntityDiesProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
 	}
 
 	@Override
