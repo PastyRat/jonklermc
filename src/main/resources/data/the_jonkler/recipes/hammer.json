@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " c ",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:cake"
+    },
+    "b": {
+      "item": "the_jonkler:goon"
+    },
+    "c": {
+      "item": "minecraft:stick"
+    },
+    "d": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "the_jonkler:angus_hammer",
+    "count": 1
+  }
+}
