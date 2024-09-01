@@ -552,6 +552,18 @@
           "src/main/resources/assets/the_jonkler/models/item/angus_hammer.json"
         ]
       }
+    },
+    {
+      "name": "Hammer",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_jonkler/recipes/hammer.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
