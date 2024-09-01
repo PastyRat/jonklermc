@@ -1,11 +1,12 @@
 {
   "subtitles.sigma": "",
-  "item.minecraft.potion.effect.suspotion": "Potion of Sus",
   "effect.the_jonkler.sus": "Sus",
+  "item.minecraft.potion.effect.suspotion": "Potion of Sus",
   "item_group.the_jonkler.jonklermod": "Jonkler",
   "item.minecraft.lingering_potion.effect.suspotion": "Lingering Potion of Sus",
   "item.minecraft.splash_potion.effect.suspotion": "Splash Potion of Sus",
   "subtitles.sigmanew": "",
+  "item.the_jonkler.goon_infused_sword": "Goon Infused Sword",
   "entity.the_jonkler.jonklermonster": "Jonkler",
   "item.the_jonkler.jonklermonster_spawn_egg": "Jonkler Spawn Egg",
   "item.the_jonkler.buster": "Buster",

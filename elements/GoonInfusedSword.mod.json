@@ -1,0 +1,41 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "goonsword",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Goon Infused Sword",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Jonklermod"
+      }
+    ],
+    "efficiency": 1.0,
+    "attackSpeed": 1.2,
+    "enchantability": 13,
+    "damageVsEntity": 15.0,
+    "usageCount": 100000,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "GoonInfusedSwordRightclicked"
+    },
+    "onEntityHitWith": {
+      "name": "GoonInfusedSwordLivingEntityIsHitWithTool"
+    }
+  }
+}

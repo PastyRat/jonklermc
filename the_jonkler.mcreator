@@ -564,6 +564,83 @@
           "src/main/resources/data/the_jonkler/recipes/hammer.json"
         ]
       }
+    },
+    {
+      "name": "GoonInfusedSwordRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goon_infused_sword_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thejonkler/procedures/GoonInfusedSwordRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GoonInfusedSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goon_infused_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thejonkler/procedures/GoonInfusedSwordLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GoonInfusedSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goon_infused_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_jonkler/models/item/goon_infused_sword.json",
+          "src/main/java/net/mcreator/thejonkler/item/GoonInfusedSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Goonsword",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goonsword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_jonkler/recipes/goonsword.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -611,6 +688,7 @@
   ],
   "tag_elements": {
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:GoonInfusedSword",
       "~CUSTOM:AngusHammer",
       "~CUSTOM:EvilJonklersword",
       "~CUSTOM:Sigmasword",
@@ -629,18 +707,20 @@
       "Sigma",
       "Jonkler",
       "Jonklermonster",
-      "AngusHammer"
+      "AngusHammer",
+      "GoonInfusedSword"
     ]
   },
   "language_map": {
     "en_us": {
       "subtitles.sigma": "",
-      "item.minecraft.potion.effect.suspotion": "Potion of Sus",
       "effect.the_jonkler.sus": "Sus",
+      "item.minecraft.potion.effect.suspotion": "Potion of Sus",
       "item_group.the_jonkler.jonklermod": "Jonkler",
       "item.minecraft.lingering_potion.effect.suspotion": "Lingering Potion of Sus",
       "item.minecraft.splash_potion.effect.suspotion": "Splash Potion of Sus",
       "subtitles.sigmanew": "",
+      "item.the_jonkler.goon_infused_sword": "Goon Infused Sword",
       "entity.the_jonkler.jonklermonster": "Jonkler",
       "item.the_jonkler.jonklermonster_spawn_egg": "Jonkler Spawn Egg",
       "item.the_jonkler.buster": "Buster",

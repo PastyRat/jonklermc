@@ -29,5 +29,6 @@ public class TheJonklerModTabs {
 				tabData.accept(TheJonklerModItems.JONKLER.get());
 				tabData.accept(TheJonklerModItems.JONKLERMONSTER_SPAWN_EGG.get());
 				tabData.accept(TheJonklerModItems.ANGUS_HAMMER.get());
+				tabData.accept(TheJonklerModItems.GOON_INFUSED_SWORD.get());
 			}).withSearchBar().build());
 }
