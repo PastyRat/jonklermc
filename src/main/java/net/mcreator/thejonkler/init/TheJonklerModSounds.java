@@ -19,4 +19,5 @@ public class TheJonklerModSounds {
 	public static final RegistryObject<SoundEvent> SUS = REGISTRY.register("sus", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("the_jonkler", "sus")));
 	public static final RegistryObject<SoundEvent> SIGMA = REGISTRY.register("sigma", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("the_jonkler", "sigma")));
 	public static final RegistryObject<SoundEvent> SIGMANEW = REGISTRY.register("sigmanew", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("the_jonkler", "sigmanew")));
+	public static final RegistryObject<SoundEvent> WHYSOSERIOUS = REGISTRY.register("whysoserious", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("the_jonkler", "whysoserious")));
 }

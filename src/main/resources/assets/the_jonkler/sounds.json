@@ -30,5 +30,14 @@
         "stream": false
       }
     ]
+  },
+  "whysoserious": {
+    "subtitle": "subtitles.whysoserious",
+    "sounds": [
+      {
+        "name": "the_jonkler:why-so-serious-slow",
+        "stream": false
+      }
+    ]
   }
 }

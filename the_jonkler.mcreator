@@ -369,9 +369,9 @@
       "registry_name": "jonklermonster",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/thejonkler/client/renderer/JonklermonsterRenderer.java",
           "src/main/java/net/mcreator/thejonkler/entity/JonklermonsterEntity.java",
-          "src/main/resources/assets/the_jonkler/models/item/jonklermonster_spawn_egg.json",
-          "src/main/java/net/mcreator/thejonkler/client/renderer/JonklermonsterRenderer.java"
+          "src/main/resources/assets/the_jonkler/models/item/jonklermonster_spawn_egg.json"
         ]
       }
     },
@@ -509,6 +509,36 @@
           }
         ]
       }
+    },
+    {
+      "name": "JonklermonsterEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jonklermonster_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thejonkler/procedures/JonklermonsterEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -544,6 +574,14 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "whysoserious",
+      "files": [
+        "why-so-serious-slow"
+      ],
+      "category": "neutral",
+      "subtitle": "Why so serious?"
     }
   ],
   "tag_elements": {
@@ -589,6 +627,7 @@
       "item.the_jonkler.sigma": "Sigma",
       "item.the_jonkler.goon": "Goon",
       "item.the_jonkler.evil_jonklersword": "Evil Jonkler Sword",
+      "subtitles.whysoserious": "Why so serious?",
       "item.the_jonkler.jonkle_rsword": "Jonkler Sword",
       "item.the_jonkler.eviljonkler": "Eviljonkler"
     }
@@ -600,9 +639,9 @@
   "workspaceSettings": {
     "modid": "the_jonkler",
     "modName": "the jonkler",
-    "version": "1.0.0",
-    "author": "Ivano, MCreator",
-    "websiteURL": "https://mcreator.net",
+    "version": "0.6.0",
+    "description": "Adds brainrot",
+    "author": "Ivano, PastyRat",
     "license": "Not specified",
     "serverSideOnly": false,
     "requiredMods": [],
@@ -610,6 +649,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.thejonkler"
   },
   "mcreatorVersion": 202400232117
