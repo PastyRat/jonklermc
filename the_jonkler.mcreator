@@ -509,6 +509,49 @@
           }
         ]
       }
+    },
+    {
+      "name": "AngusHammerLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angus_hammer_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thejonkler/procedures/AngusHammerLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AngusHammer",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angus_hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thejonkler/item/AngusHammerItem.java",
+          "src/main/resources/assets/the_jonkler/models/item/angus_hammer.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -548,6 +591,7 @@
   ],
   "tag_elements": {
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:AngusHammer",
       "~CUSTOM:EvilJonklersword",
       "~CUSTOM:Sigmasword",
       "~CUSTOM:JONKLERsword"
@@ -564,7 +608,8 @@
       "Goon",
       "Sigma",
       "Jonkler",
-      "Jonklermonster"
+      "Jonklermonster",
+      "AngusHammer"
     ]
   },
   "language_map": {
@@ -576,6 +621,7 @@
       "effect.the_jonkler.sus": "Sus",
       "item.the_jonkler.watermelon_cat_helmet": "Watermelon Cat Helmet",
       "item_group.the_jonkler.jonklermod": "Jonkler",
+      "item.the_jonkler.angus_hammer": "Fat Hammer",
       "item.minecraft.lingering_potion.effect.suspotion": "Lingering Potion of Sus",
       "subtitles.jonklerlaugh": "",
       "item.the_jonkler.goon_bow": "Goon Bow",
