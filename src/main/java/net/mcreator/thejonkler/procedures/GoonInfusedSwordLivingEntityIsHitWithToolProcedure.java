@@ -10,6 +10,8 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.thejonkler.TheJonklerMod;
+
 import java.util.Map;
 
 public class GoonInfusedSwordLivingEntityIsHitWithToolProcedure {
@@ -19,19 +21,21 @@ public class GoonInfusedSwordLivingEntityIsHitWithToolProcedure {
 		world.setBlock(BlockPos.containing(x, y, z), Blocks.COBWEB.defaultBlockState(), 3);
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 20, 1));
-		{
-			BlockPos _bp = BlockPos.containing(x, y, z);
-			BlockState _bs = Blocks.AIR.defaultBlockState();
-			BlockState _bso = world.getBlockState(_bp);
-			for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
-				Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
-				if (_property != null && _bs.getValue(_property) != null)
-					try {
-						_bs = _bs.setValue(_property, (Comparable) entry.getValue());
-					} catch (Exception e) {
-					}
+		TheJonklerMod.queueServerWork(100, () -> {
+			{
+				BlockPos _bp = BlockPos.containing(x, y, z);
+				BlockState _bs = Blocks.AIR.defaultBlockState();
+				BlockState _bso = world.getBlockState(_bp);
+				for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
+					Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
+					if (_property != null && _bs.getValue(_property) != null)
+						try {
+							_bs = _bs.setValue(_property, (Comparable) entry.getValue());
+						} catch (Exception e) {
+						}
+				}
+				world.setBlock(_bp, _bs, 3);
 			}
-			world.setBlock(_bp, _bs, 3);
-		}
+		});
 	}
 }
