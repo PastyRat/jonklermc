@@ -13,13 +13,13 @@ import net.mcreator.thejonkler.procedures.BusterRightclickedProcedure;
 
 public class BusterItem extends Item {
 	public BusterItem() {
-		super(new Item.Properties().stacksTo(1).rarity(Rarity.EPIC));
+		super(new Item.Properties().durability(150).rarity(Rarity.EPIC));
 	}
 
 	@Override
 	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
 		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
-		BusterRightclickedProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ());
+		BusterRightclickedProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), ar.getObject());
 		return ar;
 	}
 }

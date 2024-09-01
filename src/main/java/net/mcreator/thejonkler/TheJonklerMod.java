@@ -18,7 +18,9 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.thejonkler.init.TheJonklerModTabs;
+import net.mcreator.thejonkler.init.TheJonklerModSounds;
 import net.mcreator.thejonkler.init.TheJonklerModPotions;
+import net.mcreator.thejonkler.init.TheJonklerModMobEffects;
 import net.mcreator.thejonkler.init.TheJonklerModItems;
 import net.mcreator.thejonkler.init.TheJonklerModEntities;
 
@@ -41,12 +43,14 @@ public class TheJonklerMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+		TheJonklerModSounds.REGISTRY.register(bus);
 
 		TheJonklerModItems.REGISTRY.register(bus);
 		TheJonklerModEntities.REGISTRY.register(bus);
 
 		TheJonklerModTabs.REGISTRY.register(bus);
 
+		TheJonklerModMobEffects.REGISTRY.register(bus);
 		TheJonklerModPotions.REGISTRY.register(bus);
 
 		// Start of user code block mod init

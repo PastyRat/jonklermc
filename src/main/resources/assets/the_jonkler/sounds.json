@@ -1,0 +1,34 @@
+{
+  "jonklerlaugh": {
+    "sounds": [
+      {
+        "name": "the_jonkler:evil-jonkler-cart-made-with-voicemod",
+        "stream": false
+      }
+    ]
+  },
+  "sus": {
+    "sounds": [
+      {
+        "name": "the_jonkler:sus-mp3",
+        "stream": false
+      }
+    ]
+  },
+  "sigma": {
+    "sounds": [
+      {
+        "name": "the_jonkler:audio",
+        "stream": false
+      }
+    ]
+  },
+  "sigmanew": {
+    "sounds": [
+      {
+        "name": "the_jonkler:sigmasound_-_made_with_clipchamp",
+        "stream": false
+      }
+    ]
+  }
+}

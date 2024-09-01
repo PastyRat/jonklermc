@@ -18,15 +18,15 @@ public class TheJonklerModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, TheJonklerMod.MODID);
 	public static final RegistryObject<CreativeModeTab> JONKLERMOD = REGISTRY.register("jonklermod",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.the_jonkler.jonklermod")).icon(() -> new ItemStack(TheJonklerModItems.JONKLER.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(TheJonklerModItems.JONKLER.get());
 				tabData.accept(TheJonklerModItems.JONKLE_RSWORD.get());
 				tabData.accept(TheJonklerModItems.SIGMASWORD.get());
 				tabData.accept(TheJonklerModItems.EVIL_JONKLERSWORD.get());
-				tabData.accept(TheJonklerModItems.SIGMA.get());
 				tabData.accept(TheJonklerModItems.WATERMELON_CAT_HELMET.get());
 				tabData.accept(TheJonklerModItems.GOON_BOW.get());
-				tabData.accept(TheJonklerModItems.GOON.get());
-				tabData.accept(TheJonklerModItems.JONKLERMONSTER_SPAWN_EGG.get());
 				tabData.accept(TheJonklerModItems.BUSTER.get());
+				tabData.accept(TheJonklerModItems.GOON.get());
+				tabData.accept(TheJonklerModItems.SIGMA.get());
+				tabData.accept(TheJonklerModItems.JONKLER.get());
+				tabData.accept(TheJonklerModItems.JONKLERMONSTER_SPAWN_EGG.get());
 			}).withSearchBar().build());
 }
