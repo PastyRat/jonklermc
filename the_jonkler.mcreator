@@ -451,8 +451,8 @@
       "registry_name": "buster",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thejonkler/item/BusterItem.java",
-          "src/main/resources/assets/the_jonkler/models/item/buster.json"
+          "src/main/resources/assets/the_jonkler/models/item/buster.json",
+          "src/main/java/net/mcreator/thejonkler/item/BusterItem.java"
         ]
       }
     },
@@ -771,6 +771,30 @@
         ],
         "dependencies": []
       }
+    },
+    {
+      "name": "Goonblockcrft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goonblockcrft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_jonkler/recipes/goonblockcrft.json"
+        ]
+      }
+    },
+    {
+      "name": "Watermelon",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "watermelon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_jonkler/recipes/watermelon.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -839,14 +863,16 @@
       "Jonkler",
       "Jonklermonster",
       "GoonInfusedSword",
-      "FatHammer"
+      "FatHammer",
+      "Swordofthefog",
+      "Goonblock"
     ]
   },
   "language_map": {
     "en_us": {
       "subtitles.sigma": "",
-      "effect.the_jonkler.sus": "Sus",
       "item.minecraft.potion.effect.suspotion": "Potion of Sus",
+      "effect.the_jonkler.sus": "Sus",
       "item_group.the_jonkler.jonklermod": "Jonkler",
       "item.minecraft.lingering_potion.effect.suspotion": "Lingering Potion of Sus",
       "item.minecraft.splash_potion.effect.suspotion": "Splash Potion of Sus",

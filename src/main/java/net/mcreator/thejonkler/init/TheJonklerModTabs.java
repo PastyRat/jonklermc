@@ -6,19 +6,14 @@ package net.mcreator.thejonkler.init;
 
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.thejonkler.TheJonklerMod;
 
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class TheJonklerModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, TheJonklerMod.MODID);
 	public static final RegistryObject<CreativeModeTab> JONKLERMOD = REGISTRY.register("jonklermod",
@@ -35,12 +30,7 @@ public class TheJonklerModTabs {
 				tabData.accept(TheJonklerModItems.JONKLERMONSTER_SPAWN_EGG.get());
 				tabData.accept(TheJonklerModItems.GOON_INFUSED_SWORD.get());
 				tabData.accept(TheJonklerModItems.FAT_HAMMER.get());
+				tabData.accept(TheJonklerModItems.SWORDOFTHEFOG.get());
+				tabData.accept(TheJonklerModBlocks.GOONBLOCK.get().asItem());
 			}).withSearchBar().build());
-
-	@SubscribeEvent
-	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
-			tabData.accept(TheJonklerModItems.SWORDOFTHEFOG.get());
-		}
-	}
 }

@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:Goon"
       },
       {
-        "value": "CUSTOM:Goonblock"
+        "value": "CUSTOM:Goon"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Goon"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Goon"
       },
       {
-        "value": "CUSTOM:Goonblock"
+        "value": "CUSTOM:Goon"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Goon"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Goon"
       },
       {
-        "value": "CUSTOM:Goonblock"
+        "value": "CUSTOM:Goon"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Goon"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Buster"
+      "value": "CUSTOM:Goonblock"
     },
-    "name": "bustercraft",
+    "name": "goonblockcrft",
     "namespace": "mod"
   }
 }

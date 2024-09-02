@@ -41,7 +41,11 @@
     "resistance": 3.0,
     "hasGravity": true,
     "isWaterloggable": false,
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Jonklermod"
+      }
+    ],
     "destroyTool": "Not specified",
     "customDrop": {
       "value": ""

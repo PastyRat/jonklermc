@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "cbc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:melon_slice"
+    },
+    "b": {
+      "item": "minecraft:netherite_block"
+    },
+    "c": {
+      "item": "the_jonkler:goonblock"
+    }
+  },
+  "result": {
+    "item": "the_jonkler:watermelon_cat_helmet",
+    "count": 1
+  }
+}

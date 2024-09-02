@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "Items.MELON"
+      },
+      {
+        "value": "Items.MELON"
+      },
+      {
+        "value": "Items.MELON"
+      },
+      {
+        "value": "Items.MELON"
+      },
+      {
+        "value": "Blocks.NETHERITE_BLOCK"
+      },
+      {
+        "value": "Items.MELON"
       },
       {
         "value": "CUSTOM:Goonblock"
       },
       {
-        "value": ""
-      },
-      {
-        "value": ""
+        "value": "Blocks.NETHERITE_BLOCK"
       },
       {
         "value": "CUSTOM:Goonblock"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Goonblock"
-      },
-      {
-        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Buster"
+      "value": "CUSTOM:WatermelonCat.helmet"
     },
-    "name": "bustercraft",
+    "name": "watermelon",
     "namespace": "mod"
   }
 }
