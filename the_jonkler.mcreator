@@ -59,8 +59,8 @@
       "registry_name": "jonkle_rsword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_jonkler/models/item/jonkle_rsword.json",
-          "src/main/java/net/mcreator/thejonkler/item/JONKLERswordItem.java"
+          "src/main/java/net/mcreator/thejonkler/item/JONKLERswordItem.java",
+          "src/main/resources/assets/the_jonkler/models/item/jonkle_rsword.json"
         ]
       }
     },
@@ -134,8 +134,8 @@
       "registry_name": "sigmasword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thejonkler/item/SigmaswordItem.java",
-          "src/main/resources/assets/the_jonkler/models/item/sigmasword.json"
+          "src/main/resources/assets/the_jonkler/models/item/sigmasword.json",
+          "src/main/java/net/mcreator/thejonkler/item/SigmaswordItem.java"
         ]
       }
     },
@@ -147,8 +147,8 @@
       "registry_name": "evil_jonklersword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_jonkler/models/item/evil_jonklersword.json",
-          "src/main/java/net/mcreator/thejonkler/item/EvilJonklerswordItem.java"
+          "src/main/java/net/mcreator/thejonkler/item/EvilJonklerswordItem.java",
+          "src/main/resources/assets/the_jonkler/models/item/evil_jonklersword.json"
         ]
       }
     },
@@ -276,8 +276,8 @@
       "registry_name": "eviljonkler",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_jonkler/models/item/eviljonkler.json",
-          "src/main/java/net/mcreator/thejonkler/item/EviljonklerItem.java"
+          "src/main/java/net/mcreator/thejonkler/item/EviljonklerItem.java",
+          "src/main/resources/assets/the_jonkler/models/item/eviljonkler.json"
         ]
       }
     },
@@ -344,8 +344,8 @@
       "registry_name": "goon",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thejonkler/item/GoonItem.java",
-          "src/main/resources/assets/the_jonkler/models/item/goon.json"
+          "src/main/resources/assets/the_jonkler/models/item/goon.json",
+          "src/main/java/net/mcreator/thejonkler/item/GoonItem.java"
         ]
       }
     },
@@ -451,8 +451,8 @@
       "registry_name": "buster",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_jonkler/models/item/buster.json",
-          "src/main/java/net/mcreator/thejonkler/item/BusterItem.java"
+          "src/main/java/net/mcreator/thejonkler/item/BusterItem.java",
+          "src/main/resources/assets/the_jonkler/models/item/buster.json"
         ]
       }
     },
@@ -511,14 +511,14 @@
       }
     },
     {
-      "name": "AngusHammerLivingEntityIsHitWithTool",
+      "name": "FatHammerLivingEntityIsHitWithTool",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "angus_hammer_living_entity_is_hit_with_tool",
+      "registry_name": "fat_hammer_living_entity_is_hit_with_tool",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thejonkler/procedures/AngusHammerLivingEntityIsHitWithToolProcedure.java"
+          "src/main/java/net/mcreator/thejonkler/procedures/FatHammerLivingEntityIsHitWithToolProcedure.java"
         ],
         "dependencies": [
           {
@@ -541,15 +541,15 @@
       }
     },
     {
-      "name": "AngusHammer",
+      "name": "FatHammer",
       "type": "tool",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "angus_hammer",
+      "registry_name": "fat_hammer",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thejonkler/item/AngusHammerItem.java",
-          "src/main/resources/assets/the_jonkler/models/item/angus_hammer.json"
+          "src/main/java/net/mcreator/thejonkler/item/FatHammerItem.java",
+          "src/main/resources/assets/the_jonkler/models/item/fat_hammer.json"
         ]
       }
     },
@@ -629,8 +629,8 @@
       "registry_name": "goon_infused_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_jonkler/models/item/goon_infused_sword.json",
-          "src/main/java/net/mcreator/thejonkler/item/GoonInfusedSwordItem.java"
+          "src/main/java/net/mcreator/thejonkler/item/GoonInfusedSwordItem.java",
+          "src/main/resources/assets/the_jonkler/models/item/goon_infused_sword.json"
         ]
       }
     },
@@ -726,8 +726,8 @@
       "registry_name": "swordofthefog",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_jonkler/models/item/swordofthefog.json",
-          "src/main/java/net/mcreator/thejonkler/item/SwordofthefogItem.java"
+          "src/main/java/net/mcreator/thejonkler/item/SwordofthefogItem.java",
+          "src/main/resources/assets/the_jonkler/models/item/swordofthefog.json"
         ]
       }
     }
@@ -779,7 +779,7 @@
     "ITEMS:minecraft:swords": [
       "~CUSTOM:Swordofthefog",
       "~CUSTOM:GoonInfusedSword",
-      "~CUSTOM:AngusHammer",
+      "~CUSTOM:FatHammer",
       "~CUSTOM:EvilJonklersword",
       "~CUSTOM:Sigmasword",
       "~CUSTOM:JONKLERsword"
@@ -797,15 +797,15 @@
       "Sigma",
       "Jonkler",
       "Jonklermonster",
-      "AngusHammer",
-      "GoonInfusedSword"
+      "GoonInfusedSword",
+      "FatHammer"
     ]
   },
   "language_map": {
     "en_us": {
       "subtitles.sigma": "",
-      "effect.the_jonkler.sus": "Sus",
       "item.minecraft.potion.effect.suspotion": "Potion of Sus",
+      "effect.the_jonkler.sus": "Sus",
       "item_group.the_jonkler.jonklermod": "Jonkler",
       "item.minecraft.lingering_potion.effect.suspotion": "Lingering Potion of Sus",
       "item.minecraft.splash_potion.effect.suspotion": "Splash Potion of Sus",
@@ -813,12 +813,12 @@
       "item.the_jonkler.goon_infused_sword": "Goon Infused Sword",
       "entity.the_jonkler.jonklermonster": "Jonkler",
       "item.the_jonkler.jonklermonster_spawn_egg": "Jonkler Spawn Egg",
+      "item.the_jonkler.fat_hammer": "Fat Hammer",
       "item.the_jonkler.buster": "Buster",
       "item.the_jonkler.evil_jonklersword": "Evil Jonkler Sword",
       "item.minecraft.tipped_arrow.effect.suspotion": "Arrow of Sus",
       "subtitles.sus": "",
       "item.the_jonkler.watermelon_cat_helmet": "Watermelon Cat Helmet",
-      "item.the_jonkler.angus_hammer": "Fat Hammer",
       "subtitles.jonklerlaugh": "",
       "item.the_jonkler.goon_bow": "Goon Bow",
       "item.the_jonkler.sigmasword": "Sigma Sword",

@@ -20,10 +20,10 @@ import net.mcreator.thejonkler.item.JONKLERswordItem;
 import net.mcreator.thejonkler.item.GoonItem;
 import net.mcreator.thejonkler.item.GoonInfusedSwordItem;
 import net.mcreator.thejonkler.item.GoonBowItem;
+import net.mcreator.thejonkler.item.FatHammerItem;
 import net.mcreator.thejonkler.item.EviljonklerItem;
 import net.mcreator.thejonkler.item.EvilJonklerswordItem;
 import net.mcreator.thejonkler.item.BusterItem;
-import net.mcreator.thejonkler.item.AngusHammerItem;
 import net.mcreator.thejonkler.TheJonklerMod;
 
 public class TheJonklerModItems {
@@ -39,7 +39,7 @@ public class TheJonklerModItems {
 	public static final RegistryObject<Item> GOON = REGISTRY.register("goon", () -> new GoonItem());
 	public static final RegistryObject<Item> JONKLERMONSTER_SPAWN_EGG = REGISTRY.register("jonklermonster_spawn_egg", () -> new ForgeSpawnEggItem(TheJonklerModEntities.JONKLERMONSTER, -15634158, -6219583, new Item.Properties()));
 	public static final RegistryObject<Item> BUSTER = REGISTRY.register("buster", () -> new BusterItem());
-	public static final RegistryObject<Item> ANGUS_HAMMER = REGISTRY.register("angus_hammer", () -> new AngusHammerItem());
+	public static final RegistryObject<Item> FAT_HAMMER = REGISTRY.register("fat_hammer", () -> new FatHammerItem());
 	public static final RegistryObject<Item> GOON_INFUSED_SWORD = REGISTRY.register("goon_infused_sword", () -> new GoonInfusedSwordItem());
 	public static final RegistryObject<Item> SWORDOFTHEFOG = REGISTRY.register("swordofthefog", () -> new SwordofthefogItem());
 	// Start of user code block custom items

@@ -8,10 +8,10 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.LivingEntity;
 
-import net.mcreator.thejonkler.procedures.AngusHammerLivingEntityIsHitWithToolProcedure;
+import net.mcreator.thejonkler.procedures.FatHammerLivingEntityIsHitWithToolProcedure;
 
-public class AngusHammerItem extends SwordItem {
-	public AngusHammerItem() {
+public class FatHammerItem extends SwordItem {
+	public FatHammerItem() {
 		super(new Tier() {
 			public int getUses() {
 				return 100000;
@@ -42,7 +42,7 @@ public class AngusHammerItem extends SwordItem {
 	@Override
 	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
-		AngusHammerLivingEntityIsHitWithToolProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ());
+		FatHammerLivingEntityIsHitWithToolProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ());
 		return retval;
 	}
 }

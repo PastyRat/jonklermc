@@ -5,7 +5,7 @@
     "toolType": "Sword",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "angus_hammer",
+    "texture": "fat_hammer",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "name": "Fat Hammer",
@@ -32,7 +32,7 @@
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onEntityHitWith": {
-      "name": "AngusHammerLivingEntityIsHitWithTool"
+      "name": "FatHammerLivingEntityIsHitWithTool"
     }
   }
 }

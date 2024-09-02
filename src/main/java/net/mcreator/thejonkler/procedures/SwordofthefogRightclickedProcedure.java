@@ -31,14 +31,14 @@ public class SwordofthefogRightclickedProcedure {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 200, 2, false, false));
 			if (entity instanceof Player _player) {
-				_player.getAbilities().mayfly = true;
+				_player.getAbilities().flying = true;
 				_player.onUpdateAbilities();
 			}
 			if (entity instanceof Player _player)
-				_player.getCooldowns().addCooldown(itemstack.getItem(), 250);
+				_player.getCooldowns().addCooldown(itemstack.getItem(), 500);
 			TheJonklerMod.queueServerWork(100, () -> {
 				if (entity instanceof Player _player) {
-					_player.getAbilities().mayfly = true;
+					_player.getAbilities().flying = false;
 					_player.onUpdateAbilities();
 				}
 			});

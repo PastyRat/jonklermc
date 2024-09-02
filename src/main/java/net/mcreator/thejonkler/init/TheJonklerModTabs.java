@@ -33,8 +33,8 @@ public class TheJonklerModTabs {
 				tabData.accept(TheJonklerModItems.SIGMA.get());
 				tabData.accept(TheJonklerModItems.JONKLER.get());
 				tabData.accept(TheJonklerModItems.JONKLERMONSTER_SPAWN_EGG.get());
-				tabData.accept(TheJonklerModItems.ANGUS_HAMMER.get());
 				tabData.accept(TheJonklerModItems.GOON_INFUSED_SWORD.get());
+				tabData.accept(TheJonklerModItems.FAT_HAMMER.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
