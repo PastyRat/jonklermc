@@ -369,9 +369,9 @@
       "registry_name": "jonklermonster",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/thejonkler/client/renderer/JonklermonsterRenderer.java",
           "src/main/java/net/mcreator/thejonkler/entity/JonklermonsterEntity.java",
-          "src/main/resources/assets/the_jonkler/models/item/jonklermonster_spawn_egg.json",
-          "src/main/java/net/mcreator/thejonkler/client/renderer/JonklermonsterRenderer.java"
+          "src/main/resources/assets/the_jonkler/models/item/jonklermonster_spawn_egg.json"
         ]
       }
     },
@@ -769,7 +769,24 @@
         "files": [
           "src/main/java/net/mcreator/thejonkler/procedures/JonklermonsterEntityDiesProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       }
     },
     {
