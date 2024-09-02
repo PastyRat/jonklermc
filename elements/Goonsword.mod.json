@@ -12,31 +12,31 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.DIAMOND"
+        "value": ""
       },
       {
-        "value": "CUSTOM:Goon"
+        "value": "CUSTOM:Goonblock"
       },
       {
-        "value": "Items.DIAMOND"
+        "value": ""
       },
       {
-        "value": "CUSTOM:Goon"
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Goonblock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       },
       {
         "value": "CUSTOM:JONKLERsword"
       },
       {
-        "value": "CUSTOM:Goon"
-      },
-      {
-        "value": "Items.DIAMOND"
-      },
-      {
-        "value": "CUSTOM:Goon"
-      },
-      {
-        "value": "Items.DIAMOND"
+        "value": ""
       }
     ],
     "recipeReturnStack": {

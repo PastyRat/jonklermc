@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_jonkler:block/goon",
+    "up": "the_jonkler:block/goon",
+    "north": "the_jonkler:block/goon",
+    "east": "the_jonkler:block/goon",
+    "south": "the_jonkler:block/goon",
+    "west": "the_jonkler:block/goon",
+    "particle": "the_jonkler:block/goon"
+  },
+  "render_type": "solid"
+}

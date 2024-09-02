@@ -9,7 +9,9 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.common.ForgeSpawnEggItem;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.thejonkler.item.WatermelonCatItem;
 import net.mcreator.thejonkler.item.SwordofthefogItem;
@@ -42,6 +44,11 @@ public class TheJonklerModItems {
 	public static final RegistryObject<Item> FAT_HAMMER = REGISTRY.register("fat_hammer", () -> new FatHammerItem());
 	public static final RegistryObject<Item> GOON_INFUSED_SWORD = REGISTRY.register("goon_infused_sword", () -> new GoonInfusedSwordItem());
 	public static final RegistryObject<Item> SWORDOFTHEFOG = REGISTRY.register("swordofthefog", () -> new SwordofthefogItem());
+	public static final RegistryObject<Item> GOONBLOCK = block(TheJonklerModBlocks.GOONBLOCK);
+
 	// Start of user code block custom items
 	// End of user code block custom items
+	private static RegistryObject<Item> block(RegistryObject<Block> block) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+	}
 }

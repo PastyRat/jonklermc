@@ -2,15 +2,18 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    " aa",
-    "aab",
-    "ab "
+    "abb",
+    "bbc",
+    "bc "
   ],
   "key": {
     "a": {
-      "item": "the_jonkler:goon"
+      "item": "the_jonkler:goonblock"
     },
     "b": {
+      "item": "the_jonkler:goon"
+    },
+    "c": {
       "item": "minecraft:netherite_scrap"
     }
   },

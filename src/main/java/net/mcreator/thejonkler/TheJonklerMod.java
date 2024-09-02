@@ -23,6 +23,7 @@ import net.mcreator.thejonkler.init.TheJonklerModPotions;
 import net.mcreator.thejonkler.init.TheJonklerModMobEffects;
 import net.mcreator.thejonkler.init.TheJonklerModItems;
 import net.mcreator.thejonkler.init.TheJonklerModEntities;
+import net.mcreator.thejonkler.init.TheJonklerModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -44,6 +45,7 @@ public class TheJonklerMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		TheJonklerModSounds.REGISTRY.register(bus);
+		TheJonklerModBlocks.REGISTRY.register(bus);
 
 		TheJonklerModItems.REGISTRY.register(bus);
 		TheJonklerModEntities.REGISTRY.register(bus);

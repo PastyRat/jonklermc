@@ -3,20 +3,17 @@
   "category": "misc",
   "pattern": [
     " a ",
-    "bcb",
-    " d "
+    "bbb",
+    " c "
   ],
   "key": {
     "a": {
       "item": "minecraft:redstone"
     },
     "b": {
-      "item": "minecraft:netherite_ingot"
-    },
-    "c": {
       "item": "minecraft:diamond"
     },
-    "d": {
+    "c": {
       "item": "minecraft:emerald"
     }
   },

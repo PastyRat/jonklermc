@@ -369,9 +369,9 @@
       "registry_name": "jonklermonster",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thejonkler/client/renderer/JonklermonsterRenderer.java",
           "src/main/java/net/mcreator/thejonkler/entity/JonklermonsterEntity.java",
-          "src/main/resources/assets/the_jonkler/models/item/jonklermonster_spawn_egg.json"
+          "src/main/resources/assets/the_jonkler/models/item/jonklermonster_spawn_egg.json",
+          "src/main/java/net/mcreator/thejonkler/client/renderer/JonklermonsterRenderer.java"
         ]
       }
     },
@@ -629,8 +629,8 @@
       "registry_name": "goon_infused_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thejonkler/item/GoonInfusedSwordItem.java",
-          "src/main/resources/assets/the_jonkler/models/item/goon_infused_sword.json"
+          "src/main/resources/assets/the_jonkler/models/item/goon_infused_sword.json",
+          "src/main/java/net/mcreator/thejonkler/item/GoonInfusedSwordItem.java"
         ]
       }
     },
@@ -726,8 +726,36 @@
       "registry_name": "swordofthefog",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thejonkler/item/SwordofthefogItem.java",
-          "src/main/resources/assets/the_jonkler/models/item/swordofthefog.json"
+          "src/main/resources/assets/the_jonkler/models/item/swordofthefog.json",
+          "src/main/java/net/mcreator/thejonkler/item/SwordofthefogItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Fog",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fog",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_jonkler/recipes/fog.json"
+        ]
+      }
+    },
+    {
+      "name": "Goonblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goonblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_jonkler/blockstates/goonblock.json",
+          "src/main/resources/assets/the_jonkler/models/item/goonblock.json",
+          "src/main/resources/assets/the_jonkler/models/block/goonblock.json",
+          "src/main/java/net/mcreator/thejonkler/block/GoonblockBlock.java",
+          "src/main/resources/data/the_jonkler/loot_tables/blocks/goonblock.json"
         ]
       }
     }
@@ -804,14 +832,15 @@
   "language_map": {
     "en_us": {
       "subtitles.sigma": "",
-      "item.minecraft.potion.effect.suspotion": "Potion of Sus",
       "effect.the_jonkler.sus": "Sus",
+      "item.minecraft.potion.effect.suspotion": "Potion of Sus",
       "item_group.the_jonkler.jonklermod": "Jonkler",
       "item.minecraft.lingering_potion.effect.suspotion": "Lingering Potion of Sus",
       "item.minecraft.splash_potion.effect.suspotion": "Splash Potion of Sus",
       "subtitles.sigmanew": "",
       "item.the_jonkler.goon_infused_sword": "Goon Infused Sword",
       "entity.the_jonkler.jonklermonster": "Jonkler",
+      "block.the_jonkler.goonblock": "Goon block",
       "item.the_jonkler.jonklermonster_spawn_egg": "Jonkler Spawn Egg",
       "item.the_jonkler.fat_hammer": "Fat Hammer",
       "item.the_jonkler.buster": "Buster",

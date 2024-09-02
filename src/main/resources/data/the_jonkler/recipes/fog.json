@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "ebe"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "b": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "c": {
+      "item": "the_jonkler:goonblock"
+    },
+    "d": {
+      "item": "the_jonkler:jonkle_rsword"
+    },
+    "e": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "the_jonkler:swordofthefog",
+    "count": 1
+  }
+}

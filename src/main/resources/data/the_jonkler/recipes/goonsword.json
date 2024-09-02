@@ -2,18 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "aba",
-    "bcb",
-    "aba"
+    "a",
+    "a",
+    "b"
   ],
   "key": {
     "a": {
-      "item": "minecraft:diamond"
+      "item": "the_jonkler:goonblock"
     },
     "b": {
-      "item": "the_jonkler:goon"
-    },
-    "c": {
       "item": "the_jonkler:jonkle_rsword"
     }
   },

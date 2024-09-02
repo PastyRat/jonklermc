@@ -4,11 +4,14 @@
   "pattern": [
     "a",
     "a",
-    "a"
+    "b"
   ],
   "key": {
     "a": {
       "item": "the_jonkler:goon"
+    },
+    "b": {
+      "item": "the_jonkler:goonblock"
     }
   },
   "result": {

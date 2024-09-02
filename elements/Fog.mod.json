@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
+        "value": "Items.TOTEM_OF_UNDYING"
+      },
+      {
+        "value": "Items.NETHERITE_INGOT"
+      },
+      {
+        "value": "Items.TOTEM_OF_UNDYING"
+      },
+      {
         "value": "CUSTOM:Goonblock"
       },
       {
-        "value": "CUSTOM:Goon"
+        "value": "CUSTOM:JONKLERsword"
       },
       {
-        "value": "CUSTOM:Goon"
+        "value": "CUSTOM:Goonblock"
       },
       {
-        "value": "CUSTOM:Goon"
+        "value": "Items.REDSTONE"
       },
       {
-        "value": "CUSTOM:Goon"
+        "value": "Items.NETHERITE_INGOT"
       },
       {
-        "value": "Items.NETHERITE_SCRAP"
-      },
-      {
-        "value": "CUSTOM:Goon"
-      },
-      {
-        "value": "Items.NETHERITE_SCRAP"
-      },
-      {
-        "value": ""
+        "value": "Items.REDSTONE"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:GoonBow"
+      "value": "CUSTOM:Swordofthefog"
     },
-    "name": "goonbowrecipe",
+    "name": "fog",
     "namespace": "mod"
   }
 }

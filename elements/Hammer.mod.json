@@ -15,7 +15,7 @@
         "value": "Blocks.CAKE"
       },
       {
-        "value": "CUSTOM:Goon"
+        "value": "CUSTOM:Goonblock"
       },
       {
         "value": "Blocks.CAKE"
@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:AngusHammer"
+      "value": "CUSTOM:FatHammer"
     },
     "name": "hammer",
     "namespace": "mod"
