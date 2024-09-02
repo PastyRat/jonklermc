@@ -645,6 +645,91 @@
           "src/main/resources/data/the_jonkler/recipes/goonsword.json"
         ]
       }
+    },
+    {
+      "name": "SwordofthefogLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordofthefog_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thejonkler/procedures/SwordofthefogLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SwordofthefogRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordofthefog_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thejonkler/procedures/SwordofthefogRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Swordofthefog",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordofthefog",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_jonkler/models/item/swordofthefog.json",
+          "src/main/java/net/mcreator/thejonkler/item/SwordofthefogItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -692,6 +777,7 @@
   ],
   "tag_elements": {
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:Swordofthefog",
       "~CUSTOM:GoonInfusedSword",
       "~CUSTOM:AngusHammer",
       "~CUSTOM:EvilJonklersword",
@@ -718,8 +804,8 @@
   "language_map": {
     "en_us": {
       "subtitles.sigma": "",
-      "item.minecraft.potion.effect.suspotion": "Potion of Sus",
       "effect.the_jonkler.sus": "Sus",
+      "item.minecraft.potion.effect.suspotion": "Potion of Sus",
       "item_group.the_jonkler.jonklermod": "Jonkler",
       "item.minecraft.lingering_potion.effect.suspotion": "Lingering Potion of Sus",
       "item.minecraft.splash_potion.effect.suspotion": "Splash Potion of Sus",
@@ -741,7 +827,8 @@
       "item.the_jonkler.goon": "Goon",
       "subtitles.whysoserious": "Why so serious?",
       "item.the_jonkler.jonkle_rsword": "Jonkler Sword",
-      "item.the_jonkler.eviljonkler": "Eviljonkler"
+      "item.the_jonkler.eviljonkler": "Eviljonkler",
+      "item.the_jonkler.swordofthefog": "Sword of the fog"
     }
   },
   "foldersRoot": {

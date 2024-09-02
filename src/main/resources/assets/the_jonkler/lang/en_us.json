@@ -1,7 +1,7 @@
 {
   "subtitles.sigma": "",
-  "item.minecraft.potion.effect.suspotion": "Potion of Sus",
   "effect.the_jonkler.sus": "Sus",
+  "item.minecraft.potion.effect.suspotion": "Potion of Sus",
   "item_group.the_jonkler.jonklermod": "Jonkler",
   "item.minecraft.lingering_potion.effect.suspotion": "Lingering Potion of Sus",
   "item.minecraft.splash_potion.effect.suspotion": "Splash Potion of Sus",
@@ -23,5 +23,6 @@
   "item.the_jonkler.goon": "Goon",
   "subtitles.whysoserious": "Why so serious?",
   "item.the_jonkler.jonkle_rsword": "Jonkler Sword",
-  "item.the_jonkler.eviljonkler": "Eviljonkler"
+  "item.the_jonkler.eviljonkler": "Eviljonkler",
+  "item.the_jonkler.swordofthefog": "Sword of the fog"
 }

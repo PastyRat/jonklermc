@@ -12,6 +12,7 @@ import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraft.world.item.Item;
 
 import net.mcreator.thejonkler.item.WatermelonCatItem;
+import net.mcreator.thejonkler.item.SwordofthefogItem;
 import net.mcreator.thejonkler.item.SigmaswordItem;
 import net.mcreator.thejonkler.item.SigmaItem;
 import net.mcreator.thejonkler.item.JonklerItem;
@@ -40,6 +41,7 @@ public class TheJonklerModItems {
 	public static final RegistryObject<Item> BUSTER = REGISTRY.register("buster", () -> new BusterItem());
 	public static final RegistryObject<Item> ANGUS_HAMMER = REGISTRY.register("angus_hammer", () -> new AngusHammerItem());
 	public static final RegistryObject<Item> GOON_INFUSED_SWORD = REGISTRY.register("goon_infused_sword", () -> new GoonInfusedSwordItem());
+	public static final RegistryObject<Item> SWORDOFTHEFOG = REGISTRY.register("swordofthefog", () -> new SwordofthefogItem());
 	// Start of user code block custom items
 	// End of user code block custom items
 }
