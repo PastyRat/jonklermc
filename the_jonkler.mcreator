@@ -758,6 +758,19 @@
           "src/main/resources/data/the_jonkler/loot_tables/blocks/goonblock.json"
         ]
       }
+    },
+    {
+      "name": "JonklermonsterEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jonklermonster_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thejonkler/procedures/JonklermonsterEntityDiesProcedure.java"
+        ],
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [],
@@ -868,8 +881,8 @@
     "modid": "the_jonkler",
     "modName": "the jonkler",
     "version": "1.0.0",
-    "author": "Ivano, MCreator",
-    "websiteURL": "https://mcreator.net",
+    "description": "Mod that adds brainrot to Minecraft",
+    "author": "Ivano, PastyRat",
     "license": "Not specified",
     "serverSideOnly": false,
     "requiredMods": [],
@@ -877,6 +890,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.thejonkler"
   },
   "mcreatorVersion": 202400232117
