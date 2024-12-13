@@ -32,5 +32,7 @@ public class TheJonklerModTabs {
 				tabData.accept(TheJonklerModItems.FAT_HAMMER.get());
 				tabData.accept(TheJonklerModItems.SWORDOFTHEFOG.get());
 				tabData.accept(TheJonklerModBlocks.GOONBLOCK.get().asItem());
+				tabData.accept(TheJonklerModItems.LOWTAPERSWORD.get());
+				tabData.accept(TheJonklerModItems.SUITCASE.get());
 			}).withSearchBar().build());
 }

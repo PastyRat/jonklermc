@@ -20,4 +20,13 @@ public class TheJonklerModSounds {
 	public static final RegistryObject<SoundEvent> SIGMA = REGISTRY.register("sigma", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("the_jonkler", "sigma")));
 	public static final RegistryObject<SoundEvent> SIGMANEW = REGISTRY.register("sigmanew", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("the_jonkler", "sigmanew")));
 	public static final RegistryObject<SoundEvent> WHYSOSERIOUS = REGISTRY.register("whysoserious", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("the_jonkler", "whysoserious")));
+	public static final RegistryObject<SoundEvent> LOW_TAPER_FADE = REGISTRY.register("low_taper_fade", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("the_jonkler", "low_taper_fade")));
+	public static final RegistryObject<SoundEvent> DRAGGING = REGISTRY.register("dragging", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("the_jonkler", "dragging")));
+	public static final RegistryObject<SoundEvent> DRAGGING_FADE = REGISTRY.register("dragging_fade", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("the_jonkler", "dragging_fade")));
+	public static final RegistryObject<SoundEvent> MASSIVE = REGISTRY.register("massive", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("the_jonkler", "massive")));
+	public static final RegistryObject<SoundEvent> PORTAL = REGISTRY.register("portal", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("the_jonkler", "portal")));
+	public static final RegistryObject<SoundEvent> LOWTAPERFADEE = REGISTRY.register("lowtaperfadee", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("the_jonkler", "lowtaperfadee")));
+	public static final RegistryObject<SoundEvent> FREEMAN = REGISTRY.register("freeman", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("the_jonkler", "freeman")));
+	public static final RegistryObject<SoundEvent> CONVENIENT = REGISTRY.register("convenient", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("the_jonkler", "convenient")));
+	public static final RegistryObject<SoundEvent> CONSEQUENSES = REGISTRY.register("consequenses", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("the_jonkler", "consequenses")));
 }

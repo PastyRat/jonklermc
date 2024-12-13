@@ -22,6 +22,8 @@ import net.mcreator.thejonkler.init.TheJonklerModSounds;
 import net.mcreator.thejonkler.init.TheJonklerModPotions;
 import net.mcreator.thejonkler.init.TheJonklerModMobEffects;
 import net.mcreator.thejonkler.init.TheJonklerModItems;
+import net.mcreator.thejonkler.init.TheJonklerModFluids;
+import net.mcreator.thejonkler.init.TheJonklerModFluidTypes;
 import net.mcreator.thejonkler.init.TheJonklerModEntities;
 import net.mcreator.thejonkler.init.TheJonklerModBlocks;
 
@@ -54,6 +56,9 @@ public class TheJonklerMod {
 
 		TheJonklerModMobEffects.REGISTRY.register(bus);
 		TheJonklerModPotions.REGISTRY.register(bus);
+
+		TheJonklerModFluids.REGISTRY.register(bus);
+		TheJonklerModFluidTypes.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

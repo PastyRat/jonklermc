@@ -16,6 +16,7 @@ import net.mcreator.thejonkler.TheJonklerMod;
 public class TheJonklerModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, TheJonklerMod.MODID);
 	public static final RegistryObject<Block> GOONBLOCK = REGISTRY.register("goonblock", () -> new GoonblockBlock());
+	public static final RegistryObject<Block> STILLWATER = REGISTRY.register("stillwater", () -> new StillwaterBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

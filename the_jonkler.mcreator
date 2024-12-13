@@ -8,8 +8,8 @@
       "registry_name": "jonkler",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thejonkler/item/JonklerItem.java",
-          "src/main/resources/assets/the_jonkler/models/item/jonkler.json"
+          "src/main/resources/assets/the_jonkler/models/item/jonkler.json",
+          "src/main/java/net/mcreator/thejonkler/item/JonklerItem.java"
         ]
       }
     },
@@ -59,8 +59,8 @@
       "registry_name": "jonkle_rsword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thejonkler/item/JONKLERswordItem.java",
-          "src/main/resources/assets/the_jonkler/models/item/jonkle_rsword.json"
+          "src/main/resources/assets/the_jonkler/models/item/jonkle_rsword.json",
+          "src/main/java/net/mcreator/thejonkler/item/JONKLERswordItem.java"
         ]
       }
     },
@@ -134,8 +134,8 @@
       "registry_name": "sigmasword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_jonkler/models/item/sigmasword.json",
-          "src/main/java/net/mcreator/thejonkler/item/SigmaswordItem.java"
+          "src/main/java/net/mcreator/thejonkler/item/SigmaswordItem.java",
+          "src/main/resources/assets/the_jonkler/models/item/sigmasword.json"
         ]
       }
     },
@@ -147,8 +147,8 @@
       "registry_name": "evil_jonklersword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thejonkler/item/EvilJonklerswordItem.java",
-          "src/main/resources/assets/the_jonkler/models/item/evil_jonklersword.json"
+          "src/main/resources/assets/the_jonkler/models/item/evil_jonklersword.json",
+          "src/main/java/net/mcreator/thejonkler/item/EvilJonklerswordItem.java"
         ]
       }
     },
@@ -276,8 +276,8 @@
       "registry_name": "eviljonkler",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thejonkler/item/EviljonklerItem.java",
-          "src/main/resources/assets/the_jonkler/models/item/eviljonkler.json"
+          "src/main/resources/assets/the_jonkler/models/item/eviljonkler.json",
+          "src/main/java/net/mcreator/thejonkler/item/EviljonklerItem.java"
         ]
       }
     },
@@ -344,8 +344,8 @@
       "registry_name": "goon",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_jonkler/models/item/goon.json",
-          "src/main/java/net/mcreator/thejonkler/item/GoonItem.java"
+          "src/main/java/net/mcreator/thejonkler/item/GoonItem.java",
+          "src/main/resources/assets/the_jonkler/models/item/goon.json"
         ]
       }
     },
@@ -369,9 +369,9 @@
       "registry_name": "jonklermonster",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thejonkler/client/renderer/JonklermonsterRenderer.java",
           "src/main/java/net/mcreator/thejonkler/entity/JonklermonsterEntity.java",
-          "src/main/resources/assets/the_jonkler/models/item/jonklermonster_spawn_egg.json"
+          "src/main/resources/assets/the_jonkler/models/item/jonklermonster_spawn_egg.json",
+          "src/main/java/net/mcreator/thejonkler/client/renderer/JonklermonsterRenderer.java"
         ]
       }
     },
@@ -812,6 +812,182 @@
           "src/main/resources/data/the_jonkler/recipes/watermelon.json"
         ]
       }
+    },
+    {
+      "name": "LowtaperswordRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lowtapersword_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thejonkler/procedures/LowtaperswordRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LowtaperswordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lowtapersword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thejonkler/procedures/LowtaperswordLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lowtapersword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lowtapersword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thejonkler/item/LowtaperswordItem.java",
+          "src/main/resources/assets/the_jonkler/models/item/lowtapersword.json"
+        ]
+      }
+    },
+    {
+      "name": "SuitcaseRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suitcase_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thejonkler/procedures/SuitcaseRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Suitcase",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suitcase",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_jonkler/models/item/suitcase.json",
+          "src/main/java/net/mcreator/thejonkler/item/SuitcaseItem.java"
+        ]
+      }
+    },
+    {
+      "name": "StillwaterMobplayerCollidesBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stillwater_mobplayer_collides_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thejonkler/procedures/StillwaterMobplayerCollidesBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stillwater",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stillwater",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thejonkler/fluid/StillwaterFluid.java",
+          "src/main/java/net/mcreator/thejonkler/fluid/types/StillwaterFluidType.java",
+          "src/main/resources/assets/the_jonkler/models/item/stillwater_bucket.json",
+          "src/main/java/net/mcreator/thejonkler/block/StillwaterBlock.java",
+          "src/main/resources/assets/the_jonkler/blockstates/stillwater.json",
+          "src/main/java/net/mcreator/thejonkler/item/StillwaterItem.java",
+          "src/main/resources/assets/the_jonkler/models/block/stillwater.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -855,10 +1031,89 @@
       ],
       "category": "neutral",
       "subtitle": "Why so serious?"
+    },
+    {
+      "name": "low_taper_fade",
+      "files": [
+        "lowtaper"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "dragging",
+      "files": [
+        "ninja-dragging-low-taper-fade-meme-made-with-voicemod"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "dragging_fade",
+      "files": [
+        "ninja-dragging-low-taper-fade-meme-made-with-voicemod"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "massive",
+      "files": [
+        "you-know-what-else-is-massive-made-with-voicemod"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "portal",
+      "files": [
+        "untitled_video_-_made_with_clipchamp_3"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "lowtaperfadee",
+      "files": [
+        "low_taper_fadeeee_-_made_with_clipchamp"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "freeman",
+      "files": [
+        "dr_freeman_-_made_with_clipchamp"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "convenient",
+      "files": [
+        "gman_mono9"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "consequenses",
+      "files": [
+        "gman_mono1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "tag_elements": {
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Stillwater"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:Suitcase"
+    ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:Lowtapersword",
       "~CUSTOM:Swordofthefog",
       "~CUSTOM:GoonInfusedSword",
       "~CUSTOM:FatHammer",
@@ -882,38 +1137,55 @@
       "GoonInfusedSword",
       "FatHammer",
       "Swordofthefog",
-      "Goonblock"
+      "Goonblock",
+      "Lowtapersword",
+      "Suitcase",
+      "Stillwater"
     ]
   },
   "language_map": {
     "en_us": {
       "subtitles.sigma": "",
-      "item.minecraft.potion.effect.suspotion": "Potion of Sus",
       "effect.the_jonkler.sus": "Sus",
+      "item.minecraft.potion.effect.suspotion": "Potion of Sus",
+      "subtitles.freeman": "",
+      "subtitles.low_taper_fade": "",
       "item_group.the_jonkler.jonklermod": "Jonkler",
+      "fluid.the_jonkler.stillwater": "Stillwater",
       "item.minecraft.lingering_potion.effect.suspotion": "Lingering Potion of Sus",
       "item.minecraft.splash_potion.effect.suspotion": "Splash Potion of Sus",
       "subtitles.sigmanew": "",
       "item.the_jonkler.goon_infused_sword": "Goon Infused Sword",
+      "subtitles.consequenses": "",
       "entity.the_jonkler.jonklermonster": "Jonkler",
       "block.the_jonkler.goonblock": "Goon block",
       "item.the_jonkler.jonklermonster_spawn_egg": "Jonkler Spawn Egg",
       "item.the_jonkler.fat_hammer": "Fat Hammer",
       "item.the_jonkler.buster": "Buster",
       "item.the_jonkler.evil_jonklersword": "Evil Jonkler Sword",
+      "subtitles.dragging": "",
+      "subtitles.portal": "",
+      "block.the_jonkler.stillwater": "Stillwater",
       "item.minecraft.tipped_arrow.effect.suspotion": "Arrow of Sus",
       "subtitles.sus": "",
       "item.the_jonkler.watermelon_cat_helmet": "Watermelon Cat Helmet",
+      "subtitles.massive": "",
+      "subtitles.convenient": "",
+      "item.the_jonkler.stillwater_bucket": "Stillwater Bucket",
       "subtitles.jonklerlaugh": "",
       "item.the_jonkler.goon_bow": "Goon Bow",
       "item.the_jonkler.sigmasword": "Sigma Sword",
       "item.the_jonkler.jonkler": "Jonkler",
+      "item.the_jonkler.suitcase": "Suitcase",
       "item.the_jonkler.sigma": "Sigma",
       "item.the_jonkler.goon": "Goon",
       "subtitles.whysoserious": "Why so serious?",
       "item.the_jonkler.jonkle_rsword": "Jonkler Sword",
       "item.the_jonkler.eviljonkler": "Eviljonkler",
-      "item.the_jonkler.swordofthefog": "Sword of the fog"
+      "item.the_jonkler.lowtapersword": "Low taper sword",
+      "subtitles.dragging_fade": "",
+      "item.the_jonkler.swordofthefog": "Sword of the fog",
+      "subtitles.lowtaperfadee": ""
     }
   },
   "foldersRoot": {
@@ -936,5 +1208,5 @@
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.thejonkler"
   },
-  "mcreatorVersion": 202400232117
+  "mcreatorVersion": 202400342716
 }

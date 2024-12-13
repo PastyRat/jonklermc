@@ -1,0 +1,40 @@
+{
+  "_fv": 69,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Special",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "suitcase",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Suitcase",
+    "specialInformation": {
+      "fixedValue": [
+        "just a normal suitcase with no unforseen consequences"
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Jonklermod"
+      }
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 2.0,
+    "usageCount": 99999,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": true,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "SuitcaseRightclicked"
+    }
+  }
+}

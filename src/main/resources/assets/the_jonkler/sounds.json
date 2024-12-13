@@ -39,5 +39,77 @@
         "stream": false
       }
     ]
+  },
+  "low_taper_fade": {
+    "sounds": [
+      {
+        "name": "the_jonkler:lowtaper",
+        "stream": false
+      }
+    ]
+  },
+  "dragging": {
+    "sounds": [
+      {
+        "name": "the_jonkler:ninja-dragging-low-taper-fade-meme-made-with-voicemod",
+        "stream": false
+      }
+    ]
+  },
+  "dragging_fade": {
+    "sounds": [
+      {
+        "name": "the_jonkler:ninja-dragging-low-taper-fade-meme-made-with-voicemod",
+        "stream": false
+      }
+    ]
+  },
+  "massive": {
+    "sounds": [
+      {
+        "name": "the_jonkler:you-know-what-else-is-massive-made-with-voicemod",
+        "stream": false
+      }
+    ]
+  },
+  "portal": {
+    "sounds": [
+      {
+        "name": "the_jonkler:untitled_video_-_made_with_clipchamp_3",
+        "stream": false
+      }
+    ]
+  },
+  "lowtaperfadee": {
+    "sounds": [
+      {
+        "name": "the_jonkler:low_taper_fadeeee_-_made_with_clipchamp",
+        "stream": false
+      }
+    ]
+  },
+  "freeman": {
+    "sounds": [
+      {
+        "name": "the_jonkler:dr_freeman_-_made_with_clipchamp",
+        "stream": false
+      }
+    ]
+  },
+  "convenient": {
+    "sounds": [
+      {
+        "name": "the_jonkler:gman_mono9",
+        "stream": false
+      }
+    ]
+  },
+  "consequenses": {
+    "sounds": [
+      {
+        "name": "the_jonkler:gman_mono1",
+        "stream": false
+      }
+    ]
   }
 }

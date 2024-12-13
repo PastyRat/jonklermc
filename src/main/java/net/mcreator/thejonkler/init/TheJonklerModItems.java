@@ -15,8 +15,10 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.thejonkler.item.WatermelonCatItem;
 import net.mcreator.thejonkler.item.SwordofthefogItem;
+import net.mcreator.thejonkler.item.SuitcaseItem;
 import net.mcreator.thejonkler.item.SigmaswordItem;
 import net.mcreator.thejonkler.item.SigmaItem;
+import net.mcreator.thejonkler.item.LowtaperswordItem;
 import net.mcreator.thejonkler.item.JonklerItem;
 import net.mcreator.thejonkler.item.JONKLERswordItem;
 import net.mcreator.thejonkler.item.GoonItem;
@@ -45,6 +47,9 @@ public class TheJonklerModItems {
 	public static final RegistryObject<Item> GOON_INFUSED_SWORD = REGISTRY.register("goon_infused_sword", () -> new GoonInfusedSwordItem());
 	public static final RegistryObject<Item> SWORDOFTHEFOG = REGISTRY.register("swordofthefog", () -> new SwordofthefogItem());
 	public static final RegistryObject<Item> GOONBLOCK = block(TheJonklerModBlocks.GOONBLOCK);
+	public static final RegistryObject<Item> LOWTAPERSWORD = REGISTRY.register("lowtapersword", () -> new LowtaperswordItem());
+	public static final RegistryObject<Item> SUITCASE = REGISTRY.register("suitcase", () -> new SuitcaseItem());
+	public static final RegistryObject<Item> STILLWATER_BUCKET = REGISTRY.register("stillwater_bucket", () -> new StillwaterItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
