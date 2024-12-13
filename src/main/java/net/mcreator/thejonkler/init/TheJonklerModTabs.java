@@ -34,5 +34,6 @@ public class TheJonklerModTabs {
 				tabData.accept(TheJonklerModBlocks.GOONBLOCK.get().asItem());
 				tabData.accept(TheJonklerModItems.LOWTAPERSWORD.get());
 				tabData.accept(TheJonklerModItems.SUITCASE.get());
+				tabData.accept(TheJonklerModItems.STILLWATER_BUCKET.get());
 			}).withSearchBar().build());
 }

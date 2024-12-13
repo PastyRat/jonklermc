@@ -17,6 +17,7 @@ import net.minecraft.world.level.material.FlowingFluid;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 
+import net.mcreator.thejonkler.fluid.StillwaterFluid;
 import net.mcreator.thejonkler.TheJonklerMod;
 
 public class TheJonklerModFluids {

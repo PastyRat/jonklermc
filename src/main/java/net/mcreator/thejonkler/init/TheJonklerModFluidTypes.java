@@ -9,6 +9,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.fluids.FluidType;
 
+import net.mcreator.thejonkler.fluid.types.StillwaterFluidType;
 import net.mcreator.thejonkler.TheJonklerMod;
 
 public class TheJonklerModFluidTypes {
